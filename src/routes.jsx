@@ -13,11 +13,11 @@ const RoutesApp = () => {
     <BrowserRouter>
     <Header/>
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/filme/:id" element={<Filmes/>} />
-            <Route path="/favoritos" element={<Favoritos/>} />
+            <Route path="/primeFlix/" element={<Home/>} />
+            <Route path="/primeFlix/filme/:id" element={<Filmes/>} />
+            <Route path="/primeFlix/favoritos" element={<Favoritos/>} />
 
-            <Route path="*" element={<Error/>} />
+            <Route path="primeFlix/*" element={<Error/>} />
         </Routes>
     </BrowserRouter>
   )
