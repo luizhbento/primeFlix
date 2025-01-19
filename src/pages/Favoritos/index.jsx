@@ -36,7 +36,7 @@ const Favoritos = () => {
                     <li key={filme.id}>
                         <span>{filme.title}</span>
                         <div>
-                            <Link to={`/filme/${filme.id}`} >Ver Detalhes</Link>
+                            <Link to={`/primeFlix/filme/${filme.id}`} >Ver Detalhes</Link>
                             <button onClick={() => excluirFilme(filme.id)} >Excluir</button>
                         </div>
                     </li>
